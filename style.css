@@ -1,0 +1,138 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #19a2ae;
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position-x: -300px, 800px;
+  background-position-y: -435px, 520px;
+}
+
+body h1, body h2, body p {
+  margin: 0;
+}
+
+body .ic-select-card-profile {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .ic-select-card-profile .ic-card {
+  width: 370px;
+  height: 383px;
+  border-radius: 20px;
+  position: relative;
+  background-color: white;
+}
+
+body .ic-select-card-profile .ic-card .ic-banner {
+  height: 135px;
+}
+
+body .ic-select-card-profile .ic-card .ic-banner .ic-image {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+body .ic-select-card-profile .ic-card .ic-avatar {
+  background: white;
+  border-radius: 50px;
+}
+
+body .ic-select-card-profile .ic-card .ic-avatar .ic-image {
+  left: 35%;
+  top: 24%;
+  padding: 1px;
+  border-radius: 150px;
+  border: solid white 3px;
+  position: absolute;
+  background-color: white;
+}
+
+body .ic-select-card-profile .ic-card .ic-user-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 65px;
+}
+
+body .ic-select-card-profile .ic-card .ic-user-data .ic-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+body .ic-select-card-profile .ic-card .ic-user-data .ic-name .ic-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #2d3248;
+}
+
+body .ic-select-card-profile .ic-card .ic-user-data .ic-name .ic-age {
+  color: #969696;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+body .ic-select-card-profile .ic-card .ic-user-data .ic-location {
+  padding: 10px 0 25px 0;
+}
+
+body .ic-select-card-profile .ic-card .ic-user-data .ic-location .ic-location-text {
+  font-weight: 400;
+  color: #969696;
+}
+
+body .ic-select-card-profile .ic-card .ic-separation {
+  height: 1px;
+  background-color: #969696;
+}
+
+body .ic-select-card-profile .ic-card .ic-number-user-data {
+  gap: 30px;
+  height: calc(100% - 298px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .ic-select-card-profile .ic-card .ic-number-user-data .ic-user .ic-number {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+body .ic-select-card-profile .ic-card .ic-number-user-data .ic-user .ic-number-text {
+  font-weight: 400;
+  color: #969696;
+}
+/*# sourceMappingURL=style.css.map */
